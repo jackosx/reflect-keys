@@ -1,0 +1,18 @@
+{
+  "name": "reflectkeys",
+  "version": "1.0.0",
+  "description": "A succinct way to create an object with mirrored keys and values",
+  "main": "reflect-keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "redux",
+    "mirror",
+    "key"
+  ],
+  "author": "Jack O'Shea",
+  "license": "MIT"
+}
