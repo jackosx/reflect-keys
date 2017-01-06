@@ -2,7 +2,7 @@
   "name": "reflectkeys",
   "version": "1.0.2",
   "description": "A succinct way to create an object with mirrored keys and values",
-  "main": "reflect-keys.js",
+  "main": "reflectkeys.js",
   "scripts": {
     "test": "jest"
   },
