@@ -8,7 +8,7 @@ Usage
 `npm install reflectkeys`
 
 ```javascript
-var reflectKeys = require('reflectkeys');
+var reflectKeys  = require('reflectkeys');
 var mirrorObject = reflectKeys("A B C");
 // mirrorObject = { A: 'A', B: 'B', C: 'C' }
 ```
@@ -22,9 +22,12 @@ I use it instead of keyMirror for defining flux ActionTypes, eg:
 
 ```javascript
 // TodoActionTypes.js
+
 import reflectKeys from 'reflectkeys';
+
 const TodoActionTypes = reflectKeys(`TODO_ADD
-                                   TODO_UPDATE
-                                   TODO_DELETE`);
+                                     TODO_UPDATE
+                                     TODO_DELETE`);
+
 export default TodoActionTypes;
 ```
