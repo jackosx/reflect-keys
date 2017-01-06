@@ -1,10 +1,11 @@
 'use strict'
 
 var reflectKeys = function(keyString) {
-  var keys = keyString.match(/\S+/g) || []];
+  var keys = keyString.match(/\S+/g) || [];
   var reflection = {};
-  for (key in keys) {
-    reflection[key] = [key];
+  for (var i = 0; i < keys.length; i++) {
+    reflection[keys[i]] = keys[i];
+    console.log("Reflection: ",reflection);
   }
   return reflection;
 }
