@@ -10,12 +10,13 @@ Usage
 ```javascript
 var reflectKeys  = require('reflectkeys');
 var mirrorObject = reflectKeys("A B C");
+
 // mirrorObject = { A: 'A', B: 'B', C: 'C' }
 ```
 
 Input:  `"key1 key2 key3"`
 
-Output: `{key1: key1, key2: key2, key: 3}`
+Output: `{key1: key1, key2: key2, key: key3}`
 
 
 I use it instead of keyMirror for defining flux ActionTypes, eg:
